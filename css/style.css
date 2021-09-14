@@ -3,6 +3,19 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.mega {
+    text-align: center;
+    color: lightcoral;
+    font-size: 40px;
+    font-weight: 30px;
+}
+
+.name-ui {
+    color: lightskyblue;
+    font-size: 25px;
+    font-weight: 30px;
+}
+
 .search-field {
     border: none;
     border-radius: 50px;
@@ -89,6 +102,11 @@ body {
     border-radius: 5px;
     margin-right: 30px;
     position: fixed;
+    background-color: rgb(213 46 185 / 49%);
+}
+
+#my-cart {
+    color: rgb(20, 17, 17);
 }
 
 .cart-main {
@@ -102,12 +120,13 @@ body {
     }
     .cart {
         width: 300px;
-        /* border: 1px solid green; */
+        border: 1px solid green;
         padding: 10px;
         box-shadow: 10px 10px 20px gray;
         border-radius: 5px;
         margin-right: 30px;
         position: fixed;
+        background-color: rgb(42, 31, 90);
     }
     .cart-main {
         padding-right: 10px;
